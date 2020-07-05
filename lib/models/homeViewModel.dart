@@ -4,7 +4,7 @@ class HomeViewModel extends ChangeNotifier {
   String title = 'default';
 
   void initialise() {
-    title = 'initialised';
+    title = 'initialized';
     notifyListeners();
   }
 

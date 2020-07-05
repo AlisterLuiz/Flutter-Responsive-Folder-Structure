@@ -7,8 +7,8 @@ class ThemeModel extends ChangeNotifier {
   ThemeData currentTheme = lightTheme;
   ThemeType _themeType = ThemeType.Dark;
 
-// Toggling Current Theme
-// Can be toggled using Provider.of<ThemeModel>(context).toggleTheme()
+  // Toggling Current Theme
+  // Can be toggled using Provider.of<ThemeModel>(context).toggleTheme()
   toggleTheme() {
     if (_themeType == ThemeType.Dark) {
       currentTheme = lightTheme;
